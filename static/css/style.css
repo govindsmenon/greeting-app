@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    background-color: rgb(185, 48, 223);
+    font-size: 40px;
+    background-image: url(../images/handshake.jpg);
+    background-size: cover;
+    
+}
+
+
+p {
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+}
+
+input[type="text"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(14, 108, 9);
+    color: white;
+    font-weight: bold;
+}
